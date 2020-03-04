@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="A4_formatting.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+ <body>
+    <div class="page">
+        <div class="logo">
+            <img src="mvm-logo.png" alt="Italian Trulli">
+        </div>
+
+        <div class="header">
+            <div class="header-inner">
+                <div class="invoice">
+                    <span>Invoice</span>
+                </div> 
+
+                <table class="tb-header">
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>Date:</span>
+                        </td>
+                        <td class="cell3">
+                            <span>Invoice No:</span>
+                        </td>
+                        <td class="cell3">
+                            <span>Logistics MVM LTD</span>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>{{date}}</span>
+                        </td>
+                        <td class="cell3">
+                            <span>{{invoiceno}}</span>
+                        </td>
+                        <td class="cell3">
+                           
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>Invoice To:</span>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>{{invoiceto}}</span>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>Email:</span>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell3">
+                            <span>{{invoiceemail}}</span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="topcut">
+        </div>
+
+        <div class="main-container">
+
+            <table class="tb-main">
+            <tr class="row">
+                <td class="cell4 border">
+                    <span>MVM Removals</span>
+                </td>
+                <td class="cell4 border">
+                    <span>Job</span>
+                </td>
+                <td class="cell4 border">
+                    <span>Payment terms</span>
+                </td>
+                <td class="cell4 border">
+                    <span>Due on receipt</span>
+                </td>
+            </tr>
+
+            <tr class="row">
+                <td class="cell4 bottom-border">
+                    <span>Quantity</span>
+                </td>
+                <td class="cell4 bottom-border">
+                    <span>Description</span>
+                </td>
+                <td class="cell4 bottom-border">
+                    <span>Unit Price</span>
+                </td>
+                <td class="cell4 bottom-border">
+                    <span>Total</span>
+                </td>
+            </tr>
+
+            <tr class="row">
+                <td class="cell4 input">
+                    <span>Product</span>
+                </td>
+                <td class="cell4 input">
+                    <span>Product description</span>
+                </td>
+                <td class="cell4 input">
+                    <span>Amount</span>
+                </td>
+                <td class="cell4 input">
+                    <span>Amount</span>
+                </td>
+            </tr>
+
+            <tr class="row">
+                <td class="cell4 input">
+                    <span>1</span>
+                </td>
+                <td class="cell4 input">
+                    <span>{{service}}</span>
+                </td>
+                <td class="cell4 input">
+                    <span>£ {{price}}</span>
+                </td>
+                <td class="cell4 input">
+                    <span>£ {{price}}</span>
+                </td>
+            </tr>
+
+        </table>
+        <table class="tb-main spacer">
+
+            <tr class="row">
+                <td class="cell4 input">
+                    <span></span>
+                </td>
+                <td class="cell4 input">
+                    <span></span>
+                </td>
+                <td class="cell4 input">
+                    <span>Subtotal</span>
+                </td>
+                <td class="cell4 input">
+                    <span>£ {{price}}</span>
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="cell4 input">
+                    <span></span>
+                </td>
+                <td class="cell4 input">
+                    <span></span>
+                </td>
+                <td class="cell4 input">
+                    <span>Total</span>
+                </td>
+                <td class="cell4 input">
+                    <span>£ {{price}}</span>
+                </td>
+            </tr>
+            </table>
+        
+            <table class="border infobox">
+                <tr class="row">
+                    <td class="cell4 input">
+                        <span>Payment Details</span>
+                    </td>
+                    <td class="cell4 input">
+                        <span>www.mvmremovals.co.uk</span>
+                    </td>
+                </tr>
+
+                <tr class="row">
+                    <td class="cell4 input">
+                        <span>Bank Name: HSBC Bank</span>
+                    </td>
+                    <td class="cell4 input">
+                        <span>Email: info@mvmremovals.co.uk</span>
+                    </td>
+                </tr>
+
+                <tr class="row">
+                    <td class="cell4 input">
+                        <span>Sort Code   40-06-30</span>
+                    </td>
+                    <td class="cell4 input">
+                        <span>Phones:  0203 652 13 59</span>
+                    </td>
+                </tr>
+
+                <tr class="row">
+                    <td class="cell4 input">
+                        <span>Account Number 62878046</span>
+                    </td>
+                    <td class="cell4 input">
+                        <span>0795 041 65 60</span>
+                    </td>
+                </tr>
+
+            </table>
+        </div>  
+        <div class="bottomcut"></div>
+        <div class="footer">
+            <span>
+                Duration – If the time booked is exceeded, then customers are responsible for payment of every additional half-hour rate and that is made directly to the driver when completing the booking. Half hourly rate is shown on the invoice page after the initial booking. If a driver is asked to wait for that payment, that time shall be also calculated and added to the other overused time.
+            </span>
+            <table>
+                <tr>
+                    <td class="cell3w">. Driver help</td>
+                    <td class="cell3w">£15</td>
+                </tr>
+                <tr>
+                    <td class="cell3w">. Driver help + 1 helper</td>
+                    <td class="cell3w">£25</td>
+                </tr>
+                <tr>
+                    <td class="cell3w">. Driver help + 2 helper</td>
+                    <td class="cell3w">£35</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
